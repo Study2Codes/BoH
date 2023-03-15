@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+}
+.container1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+p.guildname {
+    font-size: 200px;
+    font-weight: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif    
+}
+
+h1,h2 {
+    color: white;
+    font-size: 45px;
+    font-family: fantasy;
+    position: relative;
+    width: 100%;
+    margin: 0;
+
+
+}
+.headimg {
+    display: block;
+    object-fit: cover;
+    background: no-repeat;
+    width: 100%;
+    opacity: 0.70;
+
+}
+.linkline {
+    text-decoration: none;
+    color: blue;
+}
+.linkline:hover {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.sizeimg {
+    border-radius: 40px ;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 300px;
+    border:4px solid white;
+}
+.supercontainer {
+    margin: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    p.guildname {
+        font-size: 50px; 
+    }
+    p {
+        font-size: 16px;
+    } 
+    .headimg {
+        margin-bottom: 0;
+    }
+    h1,h2 {
+        font-size: 20px;
+    }
+    .sizeimg {
+        width: 320px;
+        height: 200px;
+    }
+    .wolflogo {
+        width: 120px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){   
+    .container1 {
+        
+        width: 770px;
+        margin: 10px;
+    } 
+    .headimg {
+        background: no-repeat;
+        width: 100%;
+        margin-bottom: 30px ;
+    }
+    h1,h2 {
+        font-size: 40px;
+    }
+    .sizeimg {
+        width: 370px;
+        height: 250px;
+
+    }
+}
